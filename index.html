@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- CSS & Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!-- Bootstrap Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/fa2e9575f6.js" crossorigin="anonymous"></script>
+    <!-- Page Icon -->
+    <link rel="icon" href="images/favicon.png">
+    <title>Marcelo Ito</title>
+</head>
+<body>
+    <nav class="navbar navbar-custom fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Marcelo Ito</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#slide-presentation">Outros</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="introduction">
+        <div class="container">
+            <div class="row">
+                <div class="heading-section col-lg col-md col-sm">
+                    <h1 id="title">Marcelo Ito</h1>
+                    <p id="subtitle">Computer Science Student</p>
+                    <img id="profile-picture" src="images/marcelo.jpg" alt="Marcelo's profile picture">
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg col-md col-sm">
+                    <div class="intro-text">
+                        <i class="fas fa-user-circle fa-4x"></i>
+                        <img class="decoration2-image d-none d-md-block" src="images/bear-line-sticker.png" alt="decoration">
+                        <br>
+                        <strong>Hello World!</strong>
+                        <p>Eu sou Marcelo Ito, tenho 23 anos e sou estudante do curso de ciência da computação na <a href="https://www.univali.br/" target="_blank">UNIVALI</a>.<br>
+                        Utilizo a linguagem de programação C++ para fazer meus projetos e recentemente fui apresentado a programação web para desenvolvimento de websites e por isso
+                        estou mais focado em aprender a usar HTML, CSS e JS para projetos futuros.<br>
+                        Esta página é o meu primeiro projeto!</p>
+                        <p>Abaixo você pode acessar o meu perfil no GitHub e conferir alguns dos meus projetos com programação:</p>
+                        <div class="github-link">
+                            <i class="fab fa-github fa-4x"></i>
+                            <p>GitHub: <a href="https://github.com/GremlinX" target="_blank">GremlinX</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <section id="slide-presentation">
+        <!-- Slideshow -->
+        <div id="profile-data-carousel" class="carousel slide my-carousel" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h1>Objetivos</h1>
+                    <p>Tornar-me um excelente programador web;</p>
+                    <p>Expandir conhecimento profissional;</p>                    
+                    <p>Obter novas experiências.</p>
+                </div>
+                <div class="carousel-item">
+                    <h1>Formação</h1>
+                    <p>Universidade Estadual de Maringá, Matemática , Jan 2015 - Jan 2017</p>
+                    <p>Universidade do vale do Itajaí, Ciência da Computação, Jul 2018 - Jul 2020</p>    
+                </div>
+                <div class="carousel-item">
+                    <h1>Idiomas</h1>
+                    <p>Português PT-BR</p>
+                    <p>Inglês - Avançado</p>
+                    <p>Espanhol - Básico</p>
+                    <p>Holandês - Aprendendo</p>
+                    <p>Japonês - Aprendendo</p>
+                </div>
+                <div class="carousel-item">
+                    <h1>Experiências</h1>
+                    <p>Auxiliar de almoxarifado, Industria e Comercio de Carpintaria Maske LTDA, Maringá/PR, Ago 2017 - Jun 2018</p>
+                    <p>Auxiliar de Escritório, First Brasil Importação e Exportação LTDA, Itajaí/SC, Jul 2019 - Dez 2020</p>
+                </div>
+                <div class="carousel-item">
+                    <h1>Extra Curriculares</h1>
+                    <p>Língua Inglesa, CNA Idiomas, 2010-2015</p>
+                    <p><a href="https://www.udemy.com/course/free-learn-c-tutorial-beginners/" target="_blank">C++ Tutorial for Complete Beginners</a>, Udemy, 2020</p>
+                    <p><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank"> Complete 2021 Web Development Bootcamp</a>, Udemy, 2021</p>
+                </div>
+                <div class="carousel-item">
+                    <h1>Contato</h1>
+                    <p><i class="fab fa-whatsapp"></i> +55(44)99735-4683</p>
+                    <p><i class="far fa-envelope"></i> marcelo-ito@hotmail.com</p>
+                </div>
+                <a class="carousel-control-prev" href="#profile-data-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#profile-data-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <p>2021 © Marcelo Ito</p>
+    </div>       
+</body>
+</html>
