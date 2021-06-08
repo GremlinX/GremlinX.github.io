@@ -27,8 +27,8 @@ hr{
     position: relative;
 }
 .heading-section{
-    margin-top: 60px;
-    padding: 10%;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 #title{
     font-family: 'Sacramento', cursive;
@@ -72,6 +72,8 @@ hr{
     z-index: -1; 
 }
 .intro-text{
+    padding-left: 10%;
+    padding-right: 10%;
     margin-top: 50px;
     line-height: 50px;
 }
@@ -100,14 +102,16 @@ hr{
 .footer{
     font-size: 20px;
     text-align: center;
-    padding: 2% 5%;
+    padding: 0.5rem;
     background-color: rgb(42, 42, 42);
     color: whitesmoke;
 }
 .footer p{
     margin-bottom: 0;
 }
-@media (max-width: 500px) {
+
+
+@media (max-width: 600px) {
     .navbar-custom{
         text-align: left;
         background-color: rgb(42, 42, 42);
@@ -119,7 +123,7 @@ hr{
         font-size: 50px;
     }
     .nav-item{
-        font-size: 40px;
+        font-size: 30px;
     }
     .navbar-toggler-icon{
         font-size: 2rem;
@@ -128,7 +132,7 @@ hr{
         font-size: 100px;
     }
     #subtitle{
-        font-size: 40px;
+        font-size: 50px;
     }
     .intro-text{
         font-size: 30px;
@@ -143,6 +147,9 @@ hr{
     }
     .carousel h1{
         font-size: 50px;
+    }
+    .heading-section{
+        padding-top: 8rem;
     }
 }
 
