@@ -12,6 +12,15 @@ hr{
     margin: 0 10%;
 }
 
+/* Dark Mode */
+.dark-mode{
+    background-color: rgb(46, 36, 90);
+    color: white;
+}
+.dark-mode a:hover{
+    color: bisque ;
+}
+
 /* Navigation Bar */
 .navbar-custom{
     text-align: left;
@@ -48,29 +57,6 @@ hr{
     border-radius: 10%;
 }
 
-
-/* Decorative Section */
-/* .sticker-image{ 
-    deleted;
-    height: 150px;
-    width: 150px;
-    position: absolute;
-    margin-top: -140px;
-    margin-left: 550px;
-} 
-.decoration1-image{
-    height: 145px;
-    width: 145px;
-    position: absolute;
-    margin-top: -450px;
-    margin-left: -145px;
-}*/
-.decoration2-image{
-    position: absolute;
-    margin-top: -120px;
-    margin-left: 0px;
-    z-index: -1; 
-}
 .intro-text{
     padding-left: 10%;
     padding-right: 10%;
