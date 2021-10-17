@@ -1,141 +1,178 @@
-body{
+body {
     text-align: center;
     background-color: rgb(183, 226, 247);
     font-family: 'Montserrat', sans-serif;
-    /*font-family: 'Merriweather', serif;*/    
+    /*font-family: 'Merriweather', serif;*/
     /*font-family: 'Sacramento', cursive;*/
 }
-a:hover{
+
+a:hover {
     color: red;
 }
-hr{
+
+hr {
     margin: 0 10%;
 }
 
 /* Dark Mode */
-.dark-mode{
+.dark-mode {
     background-color: rgb(46, 36, 90);
     color: white;
 }
-.dark-mode a:hover{
-    color: bisque ;
+
+.dark-mode a:hover {
+    color: bisque;
+}
+
+.dark-mode .title {
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+
+.dark-mode .subtitle {
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+
+.dark-mode .profile-picture{
+    box-shadow: 0 0 1rem white;
 }
 
 /* Navigation Bar */
-.navbar-custom{
+.navbar-custom {
     text-align: left;
     background-color: rgb(42, 42, 42);
 }
+
 .navbar-custom .navbar-nav .nav-link {
     color: white;
 }
 
-
 /* Profile CSS */
-#introduction{
+#introduction {
     position: relative;
 }
-.heading-section{
+
+.heading-section {
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
-#title{
+
+.title {
     font-family: 'Sacramento', cursive;
     font-size: 100px;
     color: rgb(38, 92, 243);
     text-shadow: aqua 1px 1px 1px;
 }
-#subtitle{
+
+.subtitle {
     font-family: 'Sacramento', cursive;
     font-size: 50px;
     color: rgb(38, 92, 243);
     text-shadow: aqua 1px 1px 1px;
 }
-#profile-picture{
+
+.profile-picture {
+    box-shadow: 0 0 1rem rgb(38, 92, 243);
     height: 250px;
     width: 190px;
     border-radius: 10%;
 }
 
-.intro-text{
+.intro-text {
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 50px;
-    line-height: 50px;
+    line-height: 40px;
 }
-.intro-text strong{
+
+.intro-text strong {
     font-size: 22px;
 }
-.github-link{
+
+.github-link {
     padding-top: 2%;
 }
 
 
 /* Carousel CSS */
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     color: black;
 }
-.carousel-item{
+
+.carousel-item {
     padding: 5% 15%;
 }
-.carousel-item h1{
+
+.carousel-item h1 {
     text-decoration: none;
     padding-bottom: 5%;
 }
 
 
 /* Footer Section */
-.footer{
+.footer {
     font-size: 20px;
     text-align: center;
     padding: 0.5rem;
     background-color: rgb(42, 42, 42);
     color: whitesmoke;
 }
-.footer p{
+
+.footer p {
     margin-bottom: 0;
 }
 
 
 @media (max-width: 600px) {
-    .navbar-custom{
+    .navbar-custom {
         text-align: left;
         background-color: rgb(42, 42, 42);
     }
+
     .navbar-custom .navbar-nav .nav-link {
         color: white;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         font-size: 50px;
     }
-    .nav-item{
+
+    .nav-item {
         font-size: 30px;
     }
-    .navbar-toggler-icon{
+
+    .navbar-toggler-icon {
         font-size: 2rem;
     }
-    #title{
+
+    #title {
         font-size: 100px;
     }
-    #subtitle{
+
+    #subtitle {
         font-size: 50px;
     }
-    .intro-text{
+
+    .intro-text {
         font-size: 30px;
         line-height: 50px;
     }
-    .intro-text strong{
+
+    .intro-text strong {
         line-height: 100px;
         font-size: 44px;
     }
+
     .carousel p {
         font-size: 30px;
     }
-    .carousel h1{
+
+    .carousel h1 {
         font-size: 50px;
     }
-    .heading-section{
+
+    .heading-section {
         padding-top: 8rem;
     }
 }
-
