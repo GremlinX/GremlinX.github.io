@@ -24,7 +24,7 @@ hr {
     color: bisque;
 }
 
-.dark-mode .title {
+.dark-mode .title{
     color: white;
     text-shadow: black 2px 2px 2px;
 }
@@ -54,8 +54,7 @@ hr {
 }
 
 .heading-section {
-    padding-top: 5rem;
-    padding-bottom: 2rem;
+    padding: 5rem 0 2rem 0;
 }
 
 .title {
