@@ -1,31 +1,56 @@
 html,
 body {
     text-align: center;
-    background-color: rgb(183, 226, 247);
-    font-family: 'Montserrat', sans-serif;
-    color: #2c2f8f;
-    /* font-family: 'Merriweather', serif; */
-    /* font-family: 'Sacramento', cursive; */
+    /* background-color: rgb(183, 226, 247); */
+    background-color: #F4F4F4;
+    font-family: 'Open Sans', sans-serif;
+    color: #3d3d3d;
 }
 
-/* Navbar */
+/* Cabeçalho */
+.portfolio-header {
+    background-color: #2f4751;
+    padding: 1rem;
+}
+
+.header-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8%;
+    color: #F4F4F4;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.header-text>a {
+    font-weight: 100;
+}
+
+/* LALALALALALALLALALALALALALALALALA */
 .set-dark {
     color: white;
     cursor: pointer;
     text-decoration: none;
 }
 
-.navbar-custom {
-    background-color: #130f41;
+/* Dados pessoais direita */
+.container-data {
+    padding-bottom: 1rem;
 }
 
-.navbar-brand {
-    color: #0d6efd
+/* Bordas */
+.portfolio-container {
+    height: auto;
+    border-left: 1px solid rgb(182, 182, 182);
+    border-right: 1px solid rgb(182, 182, 182);
+    border-bottom: 1px solid rgb(182, 182, 182);
+    padding: 0 0 0 3rem;
 }
 
 /* Horizontal Line */
 hr {
-    margin: 0 10%;
+    margin: 0 5%;
 }
 
 /* Perfil */
@@ -33,6 +58,69 @@ hr {
     text-align: left;
 }
 
+/* Perfil Imagem */
+.profile-image {
+    width: 9rem;
+    border-radius: 10px;
+}
+
+/* Barra de progresso */
+.progress {
+    background-color: #88a8b8 !important;
+}
+
+.progress-bar {
+    background-color: #596d78 !important;
+}
+
+/* Outros */
+a:hover {
+    color: red;
+    background-color: unset !important;
+}
+
+.group-item {
+    display: flex;
+}
+
+.remove-mb {
+    margin-bottom: 0 !important;
+}
+
+.space-all {
+    padding: 1.5rem;
+}
+
+.space-sides {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h5 {
+    font-weight: 800;
+    color: #3d3d3d;
+}
+
+p {
+    font-weight: 300;
+    color: #596d78;
+}
+
+.lv {
+    height: auto;
+    border-left: 1px solid rgb(182, 182, 182);
+    padding: 0 0 0 3rem;
+}
+
+.custom-col-left {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.custom-col-right {
+    flex: 0 0 auto;
+    width: 75%;
+}
 
 /* Dark Mode */
 .dark-mode {
@@ -58,16 +146,14 @@ hr {
     box-shadow: 0 0 1rem white;
 }
 
-/* Outros */
-a:hover {
-    color: red;
-    background-color: unset !important;
-}
+@media (min-width: 1200px) {
+    .custom-col-left {
+        flex: 0 0 auto;
+        width: 20%;
+    }
 
-.group-item {
-    display: flex;
-}
-
-.remove-mb {
-    margin-bottom: 0 !important;
+    .custom-col-right {
+        flex: 0 0 auto;
+        width: 75%;
+    }
 }
