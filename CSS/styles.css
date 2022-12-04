@@ -157,3 +157,14 @@ p {
         width: 75%;
     }
 }
+
+@media (max-width: 850px) {
+    .custom-col-left {
+        width: 30%;
+    }
+
+    .custom-col-right {
+        flex: 0 0 auto;
+        width: 70%;
+    }
+}
