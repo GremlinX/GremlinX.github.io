@@ -160,13 +160,18 @@ p {
     }
 }
 
-@media (min-width: 500px) and (max-width: 800px){
+@media (min-width: 500px) and (max-width: 850px){
     .custom-col-left {
-        width: 50%;
+        width: 40%;
     }
 
     .custom-col-right {
         flex: 0 0 auto;
-        width: 50%;
+        width: 60%;
+    }
+
+    .space-sides {
+        padding-left: 1%;
+        padding-right: 1%;
     }
 }
