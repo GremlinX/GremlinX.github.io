@@ -146,6 +146,8 @@ p {
     box-shadow: 0 0 1rem white;
 }
 
+
+/* Mobile Version */
 @media (min-width: 1200px) {
     .custom-col-left {
         flex: 0 0 auto;
@@ -158,13 +160,13 @@ p {
     }
 }
 
-@media (max-width: 850px) {
+@media (min-width: 500px) and (max-width: 800px){
     .custom-col-left {
-        width: 30%;
+        width: 50%;
     }
 
     .custom-col-right {
         flex: 0 0 auto;
-        width: 70%;
+        width: 50%;
     }
 }
