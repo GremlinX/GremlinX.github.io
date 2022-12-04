@@ -6,6 +6,10 @@ body {
     /*font-family: 'Sacramento', cursive;*/
 }
 
+.navbar-brand {
+    color: white!important;
+}
+
 a:hover {
     color: red;
 }
@@ -17,7 +21,7 @@ hr {
 /* Dark Mode */
 .dark-mode {
     background-color: rgb(46, 36, 90);
-    color: white;
+    color: white!important;
 }
 
 .dark-mode a:hover {

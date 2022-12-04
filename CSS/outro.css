@@ -1,0 +1,73 @@
+html,
+body {
+    text-align: center;
+    background-color: rgb(183, 226, 247);
+    font-family: 'Montserrat', sans-serif;
+    color: #2c2f8f;
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Sacramento', cursive; */
+}
+
+/* Navbar */
+.set-dark {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-custom {
+    background-color: #130f41;
+}
+
+.navbar-brand {
+    color: #0d6efd
+}
+
+/* Horizontal Line */
+hr {
+    margin: 0 10%;
+}
+
+/* Perfil */
+.profile-text {
+    text-align: left;
+}
+
+
+/* Dark Mode */
+.dark-mode {
+    background-color: rgb(46, 36, 90);
+    color: white !important;
+}
+
+.dark-mode a:hover {
+    color: bisque;
+}
+
+.dark-mode .title {
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+
+.dark-mode .subtitle {
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+
+.dark-mode .profile-picture {
+    box-shadow: 0 0 1rem white;
+}
+
+/* Outros */
+a:hover {
+    color: red;
+    background-color: unset !important;
+}
+
+.group-item {
+    display: flex;
+}
+
+.remove-mb {
+    margin-bottom: 0 !important;
+}
