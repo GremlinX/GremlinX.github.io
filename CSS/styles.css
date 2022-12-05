@@ -160,7 +160,7 @@ p {
     }
 }
 
-@media (min-width: 500px) and (max-width: 850px){
+@media (min-width: 0px) and (max-width: 850px){
     .custom-col-left {
         width: 40%;
     }
