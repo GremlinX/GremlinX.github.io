@@ -109,7 +109,7 @@ p {
 .lv {
     height: auto;
     border-left: 1px solid rgb(182, 182, 182);
-    padding: 0 0 0 3rem;
+    padding: 0 1rem 0 1rem;
 }
 
 .custom-col-left {
@@ -181,5 +181,11 @@ p {
         border-right: 1px solid rgb(182, 182, 182);
         border-bottom: 1px solid rgb(182, 182, 182);
         padding: 0 0 0 2rem;
+    }
+
+    .lv {
+        height: auto;
+        border-left: 1px solid rgb(182, 182, 182);
+        padding: 0 0 0 1rem;
     }
 }
