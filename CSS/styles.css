@@ -208,6 +208,6 @@ p {
         border-left: 1px solid rgb(182, 182, 182);
         border-right: 1px solid rgb(182, 182, 182);
         border-bottom: 1px solid rgb(182, 182, 182);
-        padding: 0 0 0 2rem;
+        padding: 0 0 0 1rem;
     }
 }
