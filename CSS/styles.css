@@ -159,7 +159,7 @@ p {
     }
 }
 
-@media (min-width: 0px) and (max-width: 850px){
+@media (min-width: 500px) and (max-width: 850px) {
     .custom-col-left {
         width: 40%;
     }
@@ -185,5 +185,29 @@ p {
     .lv {
         height: auto;
         border-left: 1px solid rgb(182, 182, 182);
+    }
+}
+
+@media (min-width: 0) and (max-width: 500px) {
+    .custom-col-left {
+        width: 50%;
+    }
+
+    .custom-col-right {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .space-sides {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .portfolio-container {
+        height: auto;
+        border-left: 1px solid rgb(182, 182, 182);
+        border-right: 1px solid rgb(182, 182, 182);
+        border-bottom: 1px solid rgb(182, 182, 182);
+        padding: 0 0 0 2rem;
     }
 }
