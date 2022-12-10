@@ -23,15 +23,8 @@ body {
     font-weight: 600;
 }
 
-.header-text>a {
+.header-text > a {
     font-weight: 100;
-}
-
-/* LALALALALALALLALALALALALALALALALA */
-.set-dark {
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
 }
 
 /* Dados pessoais direita */
@@ -73,9 +66,24 @@ hr {
     background-color: #596d78 !important;
 }
 
+/* Title + Subtitles */
+
+.exp-title {
+    color: #2f4751;
+}
+
+.exp-subtitle {
+    color: #596d78;
+}
+
 /* Outros */
+
+a {
+    color: inherit;
+}
+
 a:hover {
-    color: red;
+    color: inherit;
     background-color: unset !important;
 }
 
@@ -107,7 +115,6 @@ p {
 }
 
 .lv {
-    height: auto;
     border-left: 1px solid rgb(182, 182, 182);
 }
 
@@ -121,10 +128,30 @@ p {
     width: 70%;
 }
 
-/* Dark Mode */
+.set-dark {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* - - - - - - - - - - - - - - - - - - Dark Mode - - - - - - - - - - - - - - - - - - */
+
 .dark-mode {
-    background-color: rgb(46, 36, 90);
+    background-color: #586F7C;
     color: white !important;
+}
+
+.dark-mode .portfolio-header {
+    background-color: #2f4751;
+}
+
+/* 4c555f */
+.dark-mode p {
+    color: white;
+}
+
+.dark-mode a {
+    color: rgb(212, 212, 212);
 }
 
 .dark-mode a:hover {
@@ -133,20 +160,33 @@ p {
 
 .dark-mode .title {
     color: white;
-    text-shadow: black 2px 2px 2px;
+}
+
+.dark-mode .exp-title {
+    color: white;
 }
 
 .dark-mode .subtitle {
     color: white;
-    text-shadow: black 2px 2px 2px;
 }
 
-.dark-mode .profile-picture {
-    box-shadow: 0 0 1rem white;
+.dark-mode .exp-subtitle {
+    color: white;
 }
 
+.dark-mode .progress {
+    background-color: #2f4751 !important;
+}
 
-/* Mobile Version */
+.dark-mode .progress-bar {
+    background-color: white !important;
+}
+
+/* - - - - - - - - - - - - - - - - - - Dark Mode - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - - - - - - - - - Mobile Version - - - - - - - - - - - - - - - - - - */
+
 @media (min-width: 1200px) {
     .custom-col-left {
         flex: 0 0 auto;
@@ -161,6 +201,7 @@ p {
 
 @media (min-width: 500px) and (max-width: 850px) {
     .custom-col-left {
+        flex: 0 0 auto;
         width: 40%;
     }
 
@@ -170,8 +211,8 @@ p {
     }
 
     .space-sides {
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .portfolio-container {
@@ -199,8 +240,8 @@ p {
     }
 
     .space-sides {
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .portfolio-container {
@@ -211,3 +252,5 @@ p {
         padding: 0 0 0 1rem;
     }
 }
+
+/* - - - - - - - - - - - - - - - - - - Mobile Version - - - - - - - - - - - - - - - - - - */
