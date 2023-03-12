@@ -46,24 +46,24 @@
                         <h5>DADOS PESSOAIS</h5>
                         <p class= "remove-mb">Quality Assurance</p>
                         <p class= "remove-mb">Itajaí - Santa Catarina</p>
-                        <p class= "remove-mb">(44)99735-4683</p>
+                        <p class= "remove-mb">(44) 99735-4683</p>
                         <p class= "remove-mb">marcelo-ito@hotmail.com</p>
                     </div>
 
-                    <!-- <i class="fab fa-whatsapp fa-2x"></i>  -->
-                    <!-- <i class="far fa-envelope fa-2x"></i> -->
-
                     <div class="container-data">
                         <h5 class="mt-3">LINKS</h5>
-                        <i class="fab fa-linkedin fa-2x"></i>
-                        <a href="linkedin.com/in/marcelo-ito-096460144/" target="_blank">LinkedIn</a>
-                        <br>
-                        <i class="fab fa-github fa-2x"></i>
-                        <a href="https://github.com/GremlinX" target="_blank">GitHub</a>
+                        <div class="mb-3">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                            <a href="linkedin.com/in/marcelo-ito-096460144/" target="_blank">LinkedIn</a>
+                        </div>
+                        <div class="mb-3">
+                            <i class="fab fa-github fa-2x"></i>
+                            <a href="https://github.com/GremlinX" target="_blank">GitHub</a>
+                        </div>
                     </div>
                     
                     <div class="container-data">
-                        <h5 class="mt-3">COMPETÊNCIAS</h5>
+                        <h5>COMPETÊNCIAS</h5>
                         <p class="remove-mb">Cypress</p>
                         <div class="progress col-8 mb-3">
                             <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -80,10 +80,10 @@
                         <div class="progress col-8 mb-3">
                             <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <a style="text-decoration: none; cursor: pointer;" data-bs-toggle="collapse" data-bs-target="#displayMore" aria-expanded="false" aria-controls="collapseExample">
-                            . . .
+                        <a id="btn-sliderDown" onclick="slider()" style="text-decoration: none; cursor: pointer;" data-bs-toggle="collapse" data-bs-target="#displayMore" aria-expanded="false" aria-controls="collapseExample">
+                            <i class="far fa-caret-square-down fa-2x"></i>
                         </a>
-                        <div class="collapse" id="displayMore">
+                        <div class="collapse mt-2" id="displayMore">
                             <p class="remove-mb">ReactJS</p>
                             <div class="progress col-8 mb-3">
                                 <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -132,16 +132,27 @@
                             <div class="progress col-8 mb-3">
                                 <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+                            <p class="remove-mb">Java</p>
+                            <div class="progress col-8 mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="remove-mb">POO</p>
+                            <div class="progress col-8 mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <a id="btn-sliderUp" onclick="slider()" style="text-decoration: none; cursor: pointer;" data-bs-toggle="collapse" data-bs-target="#displayMore" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="far fa-caret-square-up fa-2x"></i>
+                            </a>
                         </div>
                     </div>
                     
                     <div class="container-data">
                         <h5 class="mt-3">HOBBIES</h5>
-                        <p class="remove-mb">Criação de sistemas web e websites;</p>
-                        <p class="remove-mb">Ler livros e documentações de frameworks e relativos a programação;</p>
-                        <p class="remove-mb">Estudar;</p>
-                        <p class="remove-mb">Jogar;</p>
-                        <p class="remove-mb">Assitir Filmes e Séries.</p>
+                        <p class="remove-mb text-justify">Criação aplicações web;</p>
+                        <p class="remove-mb text-justify">Ler livros e documentações de frameworks e relativos a programação;</p>
+                        <p class="remove-mb text-justify">Estudar;</p>
+                        <p class="remove-mb text-justify">Jogar;</p>
+                        <p class="remove-mb text-justify">Assitir filmes e séries.</p>
                     </div>
                     
                     <div class="container-data">
@@ -176,9 +187,9 @@
                             <p>
                                 Sou estudante de ciência da computação e amante da área de programação web.
                                 Atualmente desenvolvo um sistema como hoobie e nele utilizo no frontend 
-                                ReactJS e Bootstrap para construção de sistemas web e websites. 
-                                Para backend utilizo NodeJS, ExpressJS, Mongoose e entre outras ferramentas 
-                                como PassportJS para poder ampliar meu conhecimento de ferramentas e frameworks.
+                                ReactJS e Bootstrap e para o backend utilizo NodeJS, ExpressJS, Mongoose 
+                                e entre outras ferramentas como PassportJS para poder ampliar meu conhecimento 
+                                de ferramentas e frameworks.
                                 <br>
                                 Atualmente trabalho profissionalmente com Cypress e Jenkins para executar planos
                                 de testes e assegurar a qualidade das implementações e dos softwares desenvolvidos
@@ -195,10 +206,12 @@
                                     <span class="exp-subtitle">Outubro 2021 - Presente</span>
                                 </li>
                             </ul>
-                            <p>- Executar planos de testes para assegurar a qualidade dos softwares desenvolvidos.</p>
+                            <p>- Executar planos de testes manuais e automatizados para assegurar a qualidade dos softwares desenvolvidos.</p>
                             <p>- Participar de reuniões mensais para acompanhar os projetos desenvolvidos pela equipe de DEVs.</p>
                             <p>- Escrever documentação clara e concisa dos erros encontrados resultando em um processo de QA mais eficiente.</p>
                             <p>- Assegurar a garantia de qualidade em uma equipe de 20 pessoas gerenciando tickets de suporte por meio de planilhas Google.</p>
+                            <p>- Analisar e entender as necessidades dos usuários.</p>
+                            <p>- Responsável por testar soluções de software para garantir que elas atendam aos requisitos do usuário e estejam funcionando corretamente antes de serem implantadas</p>
                         </div>
 
                         <div class="pb-3">
@@ -245,14 +258,12 @@
                 </div>
                 
             </div>
-
-            <hr>
-
-            <div class="footer">
-                <p>2022 © Marcelo Ito</p>
-            </div>
-
         </div>
+
+        <div class="p-2 footer">
+            <p>2022 © Marcelo Ito</p>
+        </div>
+
     </div>
 
     <script src="JS/javascript.js"></script>

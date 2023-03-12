@@ -9,3 +9,18 @@ function useDarkMode() {
     document.getElementById("moon").innerHTML = '<i class="fas fa-moon"></i>';
   }
 }
+
+function slider() {
+  var btnSliderDown = document.getElementById("btn-sliderDown");
+  var btnSliderUp = document.getElementById("btn-sliderUp");
+  if (btnSliderDown.style.display === "none") {
+    btnSliderDown.style.display = "block";
+  } else {
+    btnSliderDown.style.display = "none";
+    btnSliderUp.style.display = "block";
+  }
+}
+
+// .click(function() {
+//   alert( "Handler for .click() called." );
+// });
