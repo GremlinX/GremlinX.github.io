@@ -1,12 +1,18 @@
 html,
 body {
-    text-align: center;
-    /* background-color: rgb(183, 226, 247); */
+    text-align: justify;
     background-color: #F4F4F4;
     font-family: 'Open Sans', sans-serif;
     color: #3d3d3d;
 }
 
+/* - - - - - - - - - - - - - - - OFFCANVAS - - - - - - - - - - - - - - - */
+/* Dados pessoais*/
+.container-data {
+    padding-bottom: 1rem;
+}
+
+/* - - - - - - - - - - - - - - - CORPO - - - - - - - - - - - - - - - */
 /* Cabeçalho */
 .portfolio-header {
     background-color: #2f4751;
@@ -23,35 +29,7 @@ body {
     font-weight: 600;
 }
 
-.header-text > a {
-    font-weight: 100;
-}
-
-/* Dados pessoais direita */
-.container-data {
-    padding-bottom: 1rem;
-}
-
-/* Bordas */
-.portfolio-container {
-    height: auto;
-    border-left: 1px solid rgb(182, 182, 182);
-    border-right: 1px solid rgb(182, 182, 182);
-    border-bottom: 1px solid rgb(182, 182, 182);
-    padding: 0 0 0 3rem;
-}
-
-/* Horizontal Line */
-hr {
-    margin: 0 5%;
-}
-
-/* Perfil */
-.profile-text {
-    text-align: left;
-}
-
-/* Perfil Imagem */
+/* Imagem de perfil */
 .profile-image {
     width: 9rem;
     border-radius: 10px;
@@ -66,17 +44,12 @@ hr {
     background-color: #596d78 !important;
 }
 
-/* Title + Subtitles */
-
-.exp-title {
-    color: #2f4751;
+/* - - - - - - - - - - - - - - - UTILIDADES - - - - - - - - - - - - - - - */
+.set-dark {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
-
-.exp-subtitle {
-    color: #596d78;
-}
-
-/* Outros */
 
 a {
     color: inherit;
@@ -84,19 +57,7 @@ a {
 
 a:hover {
     color: inherit;
-    background-color: unset !important;
-}
-
-.group-item {
-    display: flex;
-}
-
-.remove-mb {
-    margin-bottom: 0 !important;
-}
-
-.space-all {
-    padding: 1.5rem;
+    /* background-color: unset !important; */
 }
 
 .space-sides {
@@ -104,39 +65,56 @@ a:hover {
     padding-right: 10%;
 }
 
-h5 {
-    font-weight: 800;
-    color: #3d3d3d;
+.space-all {
+    padding: 1.5rem;
 }
 
-p {
-    font-weight: 300;
-    color: #596d78;
+.remove-mb {
+    margin-bottom: 0 !important;
 }
 
-.lv {
+/* Bordas */
+.portfolio-container {
+    text-align: justify;
+    height: auto;
+    padding: 0 3rem;
     border-left: 1px solid rgb(182, 182, 182);
+    border-right: 1px solid rgb(182, 182, 182);
+    border-bottom: 1px solid rgb(182, 182, 182);
 }
 
-.custom-col-left {
-    flex: 0 0 auto;
-    width: 30%;
+/* Horizontal Line */
+hr {
+    margin: 0 5%;
 }
 
-.custom-col-right {
-    flex: 0 0 auto;
-    width: 70%;
+/* - - - - - - - - - - - - - - - CUSTOM SCROLLBAR - - - - - - - - - - - - - - - */
+
+::-webkit-scrollbar {
+    width: 15px;
+    border-radius: 10px!important;
+    background-color: #88a8b8;
 }
 
-.set-dark {
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #999999;
 }
 
-/* - - - - - - - - - - - - - - - - - - Dark Mode - - - - - - - - - - - - - - - - - - */
+::-webkit-scrollbar-track {
+    background-color: #fafafa ;
+    border-radius: 10px;
+}
+
+
+/* - - - - - - - - - - - - - - - DARK MODE - - - - - - - - - - - - - - - */
 
 .dark-mode {
+    background-color: #586F7C;
+    color: white !important;
+}
+
+.dark-mode .offcanvas {
     background-color: #586F7C;
     color: white !important;
 }
@@ -148,14 +126,6 @@ p {
 /* 4c555f */
 .dark-mode p {
     color: white;
-}
-
-.dark-mode a {
-    color: rgb(212, 212, 212);
-}
-
-.dark-mode a:hover {
-    color: bisque;
 }
 
 .dark-mode .title {
@@ -182,75 +152,7 @@ p {
     background-color: white !important;
 }
 
-/* - - - - - - - - - - - - - - - - - - Dark Mode - - - - - - - - - - - - - - - - - - */
-
-
-/* - - - - - - - - - - - - - - - - - - Mobile Version - - - - - - - - - - - - - - - - - - */
-
-@media (min-width: 1200px) {
-    .custom-col-left {
-        flex: 0 0 auto;
-        width: 25%;
-    }
-
-    .custom-col-right {
-        flex: 0 0 auto;
-        width: 75%;
-    }
+/* Bootstrap */
+.offcanvas-start {
+    width: 300px !important;
 }
-
-@media (min-width: 500px) and (max-width: 850px) {
-    .custom-col-left {
-        flex: 0 0 auto;
-        width: 40%;
-    }
-
-    .custom-col-right {
-        flex: 0 0 auto;
-        width: 60%;
-    }
-
-    .space-sides {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-    .portfolio-container {
-        height: auto;
-        border-left: 1px solid rgb(182, 182, 182);
-        border-right: 1px solid rgb(182, 182, 182);
-        border-bottom: 1px solid rgb(182, 182, 182);
-        padding: 0 0 0 2rem;
-    }
-
-    .lv {
-        height: auto;
-        border-left: 1px solid rgb(182, 182, 182);
-    }
-}
-
-@media (min-width: 0) and (max-width: 500px) {
-    .custom-col-left {
-        width: 50%;
-    }
-
-    .custom-col-right {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-
-    .space-sides {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-    .portfolio-container {
-        height: auto;
-        border-left: 1px solid rgb(182, 182, 182);
-        border-right: 1px solid rgb(182, 182, 182);
-        border-bottom: 1px solid rgb(182, 182, 182);
-        padding: 0 0 0 1rem;
-    }
-}
-
-/* - - - - - - - - - - - - - - - - - - Mobile Version - - - - - - - - - - - - - - - - - - */
