@@ -156,3 +156,10 @@ hr {
 .offcanvas-start {
     width: 300px !important;
 }
+
+@media (min-width: 0) and (max-width: 1000px) {
+    .space-sides {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
