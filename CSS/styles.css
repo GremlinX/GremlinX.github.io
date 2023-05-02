@@ -8,6 +8,10 @@ body {
 
 /* - - - - - - - - - - - - - - - OFFCANVAS - - - - - - - - - - - - - - - */
 /* Dados pessoais*/
+.offcanvas {
+    text-align: center;
+}
+
 .container-data {
     padding-bottom: 1rem;
 }
@@ -37,6 +41,8 @@ body {
 
 /* Barra de progresso */
 .progress {
+    margin-left: auto;
+    margin-right: auto;
     background-color: #88a8b8 !important;
 }
 
@@ -158,18 +164,12 @@ hr {
 }
 
 @media (min-width: 0) and (max-width: 1000px) {
-
     h3,
     h5,
     p,
     .exp-title,
     .exp-subtitle {
         text-align: center;
-    }
-
-    .progress {
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .space-sides {
