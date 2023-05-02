@@ -1,6 +1,6 @@
 html,
 body {
-    text-align: justify;
+    text-align: center;
     background-color: #F4F4F4;
     font-family: 'Open Sans', sans-serif;
     color: #3d3d3d;
@@ -92,7 +92,7 @@ hr {
 
 ::-webkit-scrollbar {
     width: 15px;
-    border-radius: 10px!important;
+    border-radius: 10px !important;
     background-color: #88a8b8;
 }
 
@@ -102,7 +102,7 @@ hr {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #fafafa ;
+    background-color: #fafafa;
     border-radius: 10px;
 }
 
@@ -158,8 +158,22 @@ hr {
 }
 
 @media (min-width: 0) and (max-width: 1000px) {
+
+    h3,
+    h5,
+    p,
+    .exp-title,
+    .exp-subtitle {
+        text-align: center;
+    }
+
+    .progress {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .space-sides {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
