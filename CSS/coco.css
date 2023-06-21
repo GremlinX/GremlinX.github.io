@@ -1,0 +1,181 @@
+body {
+    text-align: center;
+    background-color: rgb(183, 226, 247);
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Merriweather', serif;*/
+    /*font-family: 'Sacramento', cursive;*/
+}
+
+.navbar-brand {
+    color: white!important;
+}
+
+a:hover {
+    color: red;
+}
+
+hr {
+    margin: 0 10%;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: rgb(46, 36, 90);
+    color: white!important;
+}
+
+.dark-mode a:hover {
+    color: bisque;
+}
+
+.dark-mode .title{
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+
+.dark-mode .subtitle {
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+
+.dark-mode .profile-picture{
+    box-shadow: 0 0 1rem white;
+}
+
+/* Navigation Bar */
+.navbar-custom {
+    text-align: left;
+    background-color: rgb(42, 42, 42);
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Profile CSS */
+#introduction {
+    position: relative;
+}
+
+.heading-section {
+    padding: 5rem 0 2rem 0;
+}
+
+.title {
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    color: rgb(38, 92, 243);
+    text-shadow: aqua 1px 1px 1px;
+}
+
+.subtitle {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    color: rgb(38, 92, 243);
+    text-shadow: aqua 1px 1px 1px;
+}
+
+.profile-picture {
+    box-shadow: 0 0 1rem rgb(38, 92, 243);
+    height: 250px;
+    width: 190px;
+    border-radius: 10%;
+}
+
+.intro-text {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 50px;
+    line-height: 40px;
+}
+
+.intro-text strong {
+    font-size: 22px;
+}
+
+.github-link {
+    padding-top: 2%;
+}
+
+
+/* Carousel CSS */
+.carousel-control-prev-icon {
+    color: black;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+
+.carousel-item h1 {
+    text-decoration: none;
+    padding-bottom: 5%;
+}
+
+
+/* Footer Section */
+.footer {
+    font-size: 20px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgb(42, 42, 42);
+    color: whitesmoke;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 600px) {
+    .navbar-custom {
+        text-align: left;
+        background-color: rgb(42, 42, 42);
+    }
+
+    .navbar-custom .navbar-nav .nav-link {
+        color: white;
+    }
+
+    .navbar-brand {
+        font-size: 50px;
+    }
+
+    .nav-item {
+        font-size: 30px;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 2rem;
+    }
+
+    #title {
+        font-size: 100px;
+    }
+
+    #subtitle {
+        font-size: 50px;
+    }
+
+    .intro-text {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .intro-text strong {
+        line-height: 100px;
+        font-size: 44px;
+    }
+
+    .carousel p {
+        font-size: 30px;
+    }
+
+    .carousel h1 {
+        font-size: 50px;
+    }
+
+    .heading-section {
+        padding-top: 8rem;
+    }
+}
